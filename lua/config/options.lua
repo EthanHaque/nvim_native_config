@@ -9,6 +9,7 @@ opt.sidescrolloff = 10
 opt.wrap = false
 opt.colorcolumn = "120"
 opt.winborder = "rounded"
+opt.pumborder = "rounded"
 
 opt.expandtab = true
 opt.shiftwidth = 4

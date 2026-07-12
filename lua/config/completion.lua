@@ -13,6 +13,11 @@ require("blink.cmp").setup({
     },
     sources = {
         default = { "lsp", "path", "snippets", "buffer" },
+        providers = {
+            lsp = {
+                async = true,
+            },
+        },
     },
-    fuzzy = { implementation = "lua" },
+    fuzzy = { implementation = "prefer_rust" },
 })
