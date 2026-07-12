@@ -9,7 +9,6 @@ opt.sidescrolloff = 10
 opt.wrap = false
 opt.colorcolumn = "120"
 opt.winborder = "rounded"
-opt.cmdheight = 0
 
 opt.expandtab = true
 opt.shiftwidth = 4
@@ -21,6 +20,7 @@ opt.smartcase = true
 opt.wildignore:append({ "*/node_modules/*", "*/.git/*", "*/vendor/*" })
 
 opt.clipboard = "unnamedplus"
+opt.confirm = true
 opt.undofile = true
 
 opt.list = true
