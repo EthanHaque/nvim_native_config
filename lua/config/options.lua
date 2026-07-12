@@ -29,6 +29,3 @@ opt.matchpairs:append("<:>")
 
 opt.splitbelow = true
 opt.splitright = true
-
-opt.autocomplete = true
-opt.complete:append("o")
