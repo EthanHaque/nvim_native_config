@@ -3,6 +3,10 @@
     "conform.nvim": {
       "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
       "src": "https://github.com/stevearc/conform.nvim"
+    },
+    "nvim-lspconfig": {
+      "rev": "5955a100ae7155962330643924e21a798b9bdc91",
+      "src": "https://github.com/neovim/nvim-lspconfig"
     }
   }
 }

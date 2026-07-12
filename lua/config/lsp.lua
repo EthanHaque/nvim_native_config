@@ -10,4 +10,4 @@ vim.api.nvim_create_autocmd("LspAttach", {
     end,
 })
 
-vim.lsp.enable({ "ruff", "lua_ls", "ty", "vtsls", "biome", "bash", "marksman", "rumdl", "tinymist" })
+vim.lsp.enable({ "ruff", "lua_ls", "ty", "vtsls", "biome", "bashls", "marksman", "rumdl", "tinymist" })
