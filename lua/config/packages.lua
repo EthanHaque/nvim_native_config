@@ -1,0 +1,24 @@
+vim.pack.add({
+    "https://github.com/stevearc/conform.nvim",
+})
+
+require("conform").setup({
+    formatters_by_ft = {
+        javascript = { "prettier" },
+        javascriptreact = { "prettier" },
+        typescript = { "prettier" },
+        typescriptreact = { "prettier" },
+        css = { "prettier" },
+        html = { "prettier" },
+        json = { "prettier" },
+        yaml = { "prettier" },
+        markdown = { "prettier" },
+        lua = { "stylua" },
+        typst = { "typstyle" },
+        nix = { "nixfmt" },
+    },
+    format_on_save = {
+        timeout_ms = 500,
+        lsp_format = "fallback",
+    },
+})
